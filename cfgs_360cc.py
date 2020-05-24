@@ -7,7 +7,7 @@ from dataset_360 import _360CC
 from DAN import *
 
 global_cfgs = {
-    'state': 'Train',
+    'state': 'Test',
     'epoch': 100,
     'show_interval': 250,
     'test_interval': 50000
