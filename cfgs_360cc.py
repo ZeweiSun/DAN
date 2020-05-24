@@ -64,13 +64,13 @@ net_cfgs = {
         'dropout': 0.7,
     },
 
-    'init_state_dict_fe': 'models/360CC/exp1_E0_I18000-136650_M0.pth',
-    'init_state_dict_cam': 'models/360CC/exp1_E0_I18000-136650_M1.pth',
-    'init_state_dict_dtd': 'models/360CC/exp1_E0_I18000-136650_M2.pth',
+    'init_state_dict_fe': 'models/360CC/exp1E0_I4000-136650_M0.pth',
+    'init_state_dict_cam': 'models/360CC/exp1E0_I4000-136650_M1.pth',
+    'init_state_dict_dtd': 'models/360CC/exp1E0_I4000-136650_M2.pth',
 
-    'init_state_dict_fe': None,
-    'init_state_dict_cam': None,
-    'init_state_dict_dtd': None,
+    # 'init_state_dict_fe': None,
+    # 'init_state_dict_cam': None,
+    # 'init_state_dict_dtd': None,
 }
 
 optimizer_cfgs = {
@@ -116,7 +116,7 @@ saving_cfgs = {
     'saving_iter_interval': 2000,
     'saving_epoch_interval': 3,
 
-    'saving_path': 'models/360CC/exp1',
+    'saving_path': 'models/360CC/exp2',
 }
 
 def mkdir(path_):
