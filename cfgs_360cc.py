@@ -64,9 +64,9 @@ net_cfgs = {
         'dropout': 0.7,
     },
 
-    'init_state_dict_fe': 'models/360CC/exp1E0_I18000-136650_M0.pth',
-    'init_state_dict_cam': 'models/360CC/exp1E0_I18000-136650_M1.pth',
-    'init_state_dict_dtd': 'models/360CC/exp1E0_I18000-136650_M2.pth',
+    'init_state_dict_fe': 'models/360CC/exp2E0_I32000-136650_M0.pth',
+    'init_state_dict_cam': 'models/360CC/exp2E0_I32000-136650_M1.pth',
+    'init_state_dict_dtd': 'models/360CC/exp2E0_I32000-136650_M2.pth',
 
     # 'init_state_dict_fe': None,
     # 'init_state_dict_cam': None,
