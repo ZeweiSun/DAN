@@ -10,7 +10,7 @@ global_cfgs = {
     'state': 'Test',
     'epoch': 100,
     'show_interval': 250,
-    'test_interval': 50000
+    'test_interval': 20000
 }
 
 dataset_cfgs = {
@@ -116,7 +116,7 @@ saving_cfgs = {
     'saving_iter_interval': 2000,
     'saving_epoch_interval': 3,
 
-    'saving_path': 'models/360CC/exp2',
+    'saving_path': 'models/360CC/exp3',
 }
 
 def mkdir(path_):
