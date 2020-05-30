@@ -229,7 +229,7 @@ class DTD(nn.Module):
                                  hidden)
                 tmp_result = self.generator(hidden)
                 out_res[now_step] = tmp_result
-                tmp_result = tmp_result.topk(1)[1].squeeze()
+                tmp_result = tmp_result.topk(1)[1].squeeze().reshape(nB)
                 for j in range(nB):
                     if out_length[j] == 0 and tmp_result[j] == 0:
                         out_length[j] = now_step + 1
